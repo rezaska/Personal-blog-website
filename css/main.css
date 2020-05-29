@@ -1,0 +1,102 @@
+#header{
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+#title-about{
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+#news{
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+body {
+  background: #D5DADB;
+  color: #2F3245;
+}
+
+.container { 
+  display: grid;
+  margin: auto;
+  grid-template-columns: 850px;
+  grid-template-rows: 50px 1fr 1fr;
+  grid-template-areas: 
+  "hd"
+  "ti"
+  "main"
+  "ft";
+}
+
+.header{
+  grid-area: hd;
+}
+
+.title{
+  grid-area: ti;
+}
+
+.main{
+  grid-area: main;
+}
+
+.footer{
+  background: #EAAB12;
+  left: 0;
+  bottom: 0;
+  grid-area: ft;
+  display: block;
+  width: 80%;
+  padding: 2px;
+  height: auto;
+  text-align: center;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+img{
+  display: block;
+  width: 80%;
+  padding: 2px;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#news-title {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.line{
+  display: block;
+  width: 80%;
+  padding: 1px;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:visited {
+  color: #2F3245;
+  }
+
+
+
+.post-image{
+  width: 80%;
+  padding: 2px;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
