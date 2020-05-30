@@ -63,3 +63,11 @@ h1{
 .fa-dribbble{
   color: #2F3245;
 }
+
+figcaption {
+  color: grey;
+  font-size: 0.8em;
+  width: 80%;
+  margin: auto;
+  height: auto;
+}

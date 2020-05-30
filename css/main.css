@@ -47,8 +47,6 @@ body {
 
 .footer{
   background: #EAAB12;
-  left: 0;
-  bottom: 0;
   grid-area: ft;
   display: block;
   width: 80%;
@@ -61,13 +59,15 @@ body {
 }
 
 img{
-  display: block;
+  display: flex;
   width: 80%;
-  padding: 2px;
   height: auto;
+  vertical-align: middle;
+  padding: 2px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  object-fit: cover;
 }
 
 #news-title {
@@ -89,3 +89,17 @@ img{
 a:visited {
   color: #2F3245;
   }
+
+.back-button{
+  display: inline;
+  margin: 45px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 15px;
+  border: 1px solid;
+}
+
+.post-image{
+  display: flex;
+  width: 100%;
+}
