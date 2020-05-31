@@ -1,13 +1,27 @@
+body {
+  background: #D5DADB;
+  color: #2F3245;
+}
+
 #header{
   margin: auto;
   width: 80%;
   padding: 10px;
+  grid-area: hd;
 }
 
 #title-about{
   margin: auto;
   width: 80%;
   padding: 10px;
+  grid-area: ti;
+}
+
+#news-title {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  grid-area: main;
 }
 
 #news{
@@ -16,9 +30,16 @@
   padding: 10px;
 }
 
-body {
-  background: #D5DADB;
-  color: #2F3245;
+.footer{
+  background: #EAAB12;
+  grid-area: ft;
+  display: block;
+  padding: 2px;
+  height: auto;
+  text-align: center;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .container { 
@@ -33,31 +54,6 @@ body {
   "ft";
 }
 
-.header{
-  grid-area: hd;
-}
-
-.title{
-  grid-area: ti;
-}
-
-.main{
-  grid-area: main;
-}
-
-.footer{
-  background: #EAAB12;
-  grid-area: ft;
-  display: block;
-  width: 80%;
-  padding: 2px;
-  height: auto;
-  text-align: center;
-  width: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 img{
   display: flex;
   width: 80%;
@@ -68,12 +64,6 @@ img{
   margin-left: auto;
   margin-right: auto;
   object-fit: cover;
-}
-
-#news-title {
-  margin: auto;
-  width: 80%;
-  padding: 10px;
 }
 
 .line{
@@ -103,4 +93,18 @@ a:visited {
 .post-image{
   display: flex;
   width: 100%;
+}
+
+@media (min-width:900px) {
+  .container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 600px 250px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "ti ti ti ti ti ti ti ti"
+    "main main main main main main main main"
+    "ft ft ft ft ft ft ft ft"
+    ;
+  }
 }
