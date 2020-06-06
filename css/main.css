@@ -97,11 +97,11 @@ a:visited {
 
 @media (min-width:900px) {
   .container{
-    display: grid;
+    display: block;
     flex-direction: row;
     justify-content: center;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 600px 250px;
+    grid-template-rows: 300px 300px;
     grid-template-areas: 
     "hd hd hd"
     "ti ti ti"
@@ -109,5 +109,21 @@ a:visited {
     "ft ft ft"
     ;
   }
+
+  .post-1,
+  .post-2,
+  .post-3,
+  .post-4
+  {
+    width: 30%;
+    /* float: left; */
+    display: inline-block;
+  }
+  
+  .title-about{
+    width: 100%;
+    text-align: center;
+  }
+
 }
 
