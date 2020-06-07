@@ -3,7 +3,7 @@ body {
   color: #2F3245;
 }
 
-.container { 
+body { 
   display: grid;
   margin: auto;
   grid-template-columns: auto;
@@ -42,7 +42,7 @@ body {
   padding: 10px;
 }
 
-#footer{
+footer{
   background: #EAAB12;
   grid-area: ft;
   display: block;
@@ -96,7 +96,7 @@ a:visited {
 }
 
 @media (min-width:900px) {
-  .container{
+  body{
     display: block;
     flex-direction: row;
     justify-content: center;
@@ -110,10 +110,10 @@ a:visited {
     ;
   }
 
-  .post-1,
-  .post-2,
-  .post-3,
-  .post-4
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4
   {
     width: 30%;
     /* float: left; */
