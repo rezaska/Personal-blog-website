@@ -1,0 +1,29 @@
+.title-about{
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  grid-area: ti;
+}
+
+img{
+  display: flex;
+  width: 80%;
+  height: auto;
+  vertical-align: middle;
+  padding: 2px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2F3245;
+  border-radius: 20px;
+}
+

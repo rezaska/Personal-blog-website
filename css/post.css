@@ -1,0 +1,63 @@
+.back-button{
+    display: inline;
+    margin: 45px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.post-image{
+    display: flex;
+    width: 100%;
+}
+
+article {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    grid-area: main;
+}
+
+.author-avatar {
+    width: 20%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border-radius: 50%;
+}
+  
+.author-name {
+    width: 80%;
+    margin:auto;
+    padding: 10px;
+}
+   
+.author-role {
+    width: 80%;
+    margin:auto;
+    padding: 10px;
+}
+  
+.author-info {
+    width: 80%;
+    margin:auto;
+    padding: 10px;
+}
+
+.fa-twitter{
+    color: #2F3245
+}
+  
+.fa-facebook{
+    color: #2F3245
+}
+
+figcaption {
+    color: grey;
+    font-size: 0.8em;
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+

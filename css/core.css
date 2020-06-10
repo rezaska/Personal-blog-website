@@ -7,7 +7,6 @@ h6 {
   color: #2F3245;
 }
 
-
 h1{
   font-size: 45px;
 }
@@ -36,61 +35,62 @@ h6{
   font-weight: normal;
 }
 
+body { 
+  background: #D5DADB;
+  color: #2F3245;
+  display: grid;
+  margin: auto;
+  grid-template-columns: auto;
+  grid-template-rows: 50px 1fr 1fr;
+  grid-template-areas: 
+  "hd"
+  "ti"
+  "main"
+  "ft";
+}
+
+.header{
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  grid-area: hd;
+}
+
+.line{
+  display: block;
+  width: 80%;
+  padding: 2px;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid #2F3245;
+}
+
+.footer-wrapper {
+  background: #EAAB12;
+  grid-area: ft;
+  display: block;
+  padding: 2px;
+  height: auto;
+  text-align: center;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .fa-github{
   color: #2F3245;
 }
-
+  
 .fa-globe{
   color: #2F3245;
 }
-
+  
 .fa-linkedin-in{
   color: #2F3245;
 }
-
+  
 .fa-dribbble{
   color: #2F3245;
-
-}
-
-figcaption {
-  color: grey;
-  font-size: 0.8em;
-  width: 80%;
-  margin: auto;
-  height: auto;
-}
-
-.fa-twitter{
-  color: #2F3245
-}
-
-.fa-facebook{
-  color: #2F3245
-}
-
-.author-avatar {
-  width: 20%;
-  height: auto;
-  margin: auto;
-  padding: 10px;
-  border-radius: 50%;
-}
-
-.author-name {
-  width: 80%;
-  margin:auto;
-  padding: 10px;
-}
- 
-.author-role {
-  width: 80%;
-  margin:auto;
-  padding: 10px;
-}
-
-.author-info {
-  width: 80%;
-  margin:auto;
-  padding: 10px;
 }
