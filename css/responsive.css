@@ -1,26 +1,15 @@
 @media (min-width:900px) {
-  body{
-    display: block;
-    flex-direction: row;
-    justify-content: center;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px 300px;
-    grid-template-areas: 
-    "hd hd hd"
-    "ti ti ti"
-    "main main main"
-    "ft ft ft"
-    ;
+
+  #cards {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
   }
   
-  .card-1,
-  .card-2,
-  .card-3,
-  .card-4
-  {
-    width: 30%;
-    /* float: left; */
-    display: inline-block;
+  .card-item {
+    width: 33%;
   }
     
   .title-about{
@@ -38,3 +27,4 @@
     box-sizing: border-box;
   }
   */
+}

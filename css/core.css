@@ -41,12 +41,19 @@ body {
   display: grid;
   margin: auto;
   grid-template-columns: auto;
-  grid-template-rows: 50px 1fr 1fr;
+  grid-auto-rows: minmax(50px, auto);
   grid-template-areas: 
   "hd"
   "ti"
+  "sp"
+  "st"
   "main"
   "ft";
+}
+
+.news-title {
+  grid-area: st;
+  padding: 0 10px;
 }
 
 .header{
@@ -58,6 +65,7 @@ body {
 
 .line{
   display: block;
+  grid-area: sp;
   width: 80%;
   padding: 2px;
   height: auto;
@@ -67,16 +75,20 @@ body {
   border-bottom: 2px solid #2F3245;
 }
 
+#cards {
+  grid-area: main;
+  padding: 0 10px;
+}
+
 .footer-wrapper {
   background: #EAAB12;
   grid-area: ft;
   display: block;
-  padding: 2px;
+  padding: 20px 0 40px;
   height: auto;
   text-align: center;
   width: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 30px;
 }
 
 .fa-github{
