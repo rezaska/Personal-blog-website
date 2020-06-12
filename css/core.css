@@ -53,7 +53,8 @@ body {
 
 .news-title {
   grid-area: st;
-  padding: 0 10px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .header{
@@ -77,7 +78,8 @@ body {
 
 #cards {
   grid-area: main;
-  padding: 0 10px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .footer-wrapper {
@@ -112,6 +114,5 @@ body {
 }
 
 .underline{
-  text-decoration: none;
-  border-bottom: 1px solid #EAAB12;
+  text-decoration-color: #EAAB12;
 }
