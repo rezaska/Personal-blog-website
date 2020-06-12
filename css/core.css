@@ -106,3 +106,12 @@ body {
 .fa-dribbble{
   color: #2F3245;
 }
+
+.no-underline{
+  text-decoration: none;
+}
+
+.underline{
+  text-decoration: none;
+  border-bottom: 1px solid #EAAB12;
+}
