@@ -40,15 +40,16 @@ body {
   color: #2F3245;
   display: grid;
   margin: auto;
-  grid-template-columns: auto;
+  /*grid-template-columns: auto;*/
   grid-auto-rows: minmax(50px, auto);
   grid-template-areas: 
-  "hd"
-  "ti"
-  "sp"
-  "st"
-  "main"
-  "ft";
+  "hd hd hd"
+  "ti ti ti"
+  "sp sp sp"
+  "st st st"
+  "main main main"
+  "main main main"
+  "ft ft ft";
 }
 
 .news-title {
