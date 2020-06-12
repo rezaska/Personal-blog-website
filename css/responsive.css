@@ -1,15 +1,10 @@
 @media (min-width:900px) {
 
   #cards {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .card-item {
-    width: 33%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 475px 475px;
+    grid-gap: 20px;
   }
     
   .title-about{
