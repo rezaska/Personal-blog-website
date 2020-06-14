@@ -61,3 +61,10 @@ figcaption {
     height: auto;
 }
 
+#newsletter{
+    grid-area: nl;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+

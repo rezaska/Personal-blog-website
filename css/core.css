@@ -39,7 +39,7 @@ body {
   background: #D5DADB;
   color: #2F3245;
   display: grid;
-  margin: auto;
+  margin: 0;
   /*grid-template-columns: auto;*/
   grid-auto-rows: minmax(50px, auto);
   grid-template-areas: 
@@ -49,6 +49,7 @@ body {
   "st st st"
   "main main main"
   "main main main"
+  "nl nl nl"
   "ft ft ft";;
 }
 
@@ -58,7 +59,7 @@ body {
   margin: 0 auto;
 }
 
-.header{
+header{
   margin: auto;
   width: 80%;
   padding: 10px;
