@@ -1,15 +1,29 @@
+
+#post-container{
+    background: #D5DADB;
+    color: #2F3245;
+}
+
+#nav{
+    width: 80%;
+    margin: auto;
+}
+
 .back-button{
-    display: inline;
-    margin: 45px;
     padding: 10px;
     border-style: solid;
     border-radius: 15px;
     border: 1px solid;
+    width: 135px;
 }
 
 .post-image{
     display: flex;
     width: 100%;
+}
+
+.image-header{
+    max-width: 50%;
 }
 
 article {
@@ -59,6 +73,7 @@ figcaption {
     width: 80%;
     margin: auto;
     height: auto;
+text-align: center;
 }
 
 #newsletter{

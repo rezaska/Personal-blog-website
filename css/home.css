@@ -1,3 +1,21 @@
+
+#home-container { 
+  background: #D5DADB;
+  color: #2F3245;
+  display: grid;
+  /*grid-template-columns: auto;*/
+  grid-auto-rows: minmax(50px, auto);
+  grid-template-areas: 
+  "hd hd hd"
+  "ti ti ti"
+  "sp sp sp"
+  "st st st"
+  "main main main"
+  "main main main"
+  "nl nl nl"
+  "ft ft ft";
+}
+
 .title-about{
   margin: auto;
   width: 80%;
@@ -13,7 +31,6 @@ img{
   margin-left: auto;
   margin-right: auto;
   object-fit: cover;
-  max-height: 260px;
   max-width: 90%;
 }
 

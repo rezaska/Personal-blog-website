@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -33,24 +37,6 @@ h5{
 h6{
   font-size: 16px;
   font-weight: normal;
-}
-
-body { 
-  background: #D5DADB;
-  color: #2F3245;
-  display: grid;
-  margin: 0;
-  /*grid-template-columns: auto;*/
-  grid-auto-rows: minmax(50px, auto);
-  grid-template-areas: 
-  "hd hd hd"
-  "ti ti ti"
-  "sp sp sp"
-  "st st st"
-  "main main main"
-  "main main main"
-  "nl nl nl"
-  "ft ft ft";;
 }
 
 .news-title {
